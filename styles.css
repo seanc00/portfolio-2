@@ -6,6 +6,9 @@
 
     /*colors of header*/
     background-color: pink;
+
+    /*seperates header and webpage content*/
+    margin-bottom: 30px;
 }
 
 /*background imported from heropatterns.com*/
@@ -60,7 +63,35 @@ a:any-link, .logo {
     align-items: center;
 }
 
+
+
 /*homepage styling*/
 
+/*stying of content in welcome title*/
+.welcomeTitle {
+    border: black;
+    border-style: solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: pink;
+    border-radius: 10px;
+
+    /*positioning of welcome title content*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    gap: 10px;
+}
+
+.welcomeImage > img {
+    height: 200px;
+    border: black;
+    border-style: solid;
+}
+
+.welcomeMessage > p {
+    font-size: 25px;
+}
 
 
