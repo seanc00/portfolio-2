@@ -1,0 +1,13 @@
+.header {
+    /*positioning of content in header*/
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    /*colors of header*/
+    background-color: plum;
+}
+
+.header-right >  {
+    
+}
