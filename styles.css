@@ -143,6 +143,7 @@ a:any-link, .logo {
     background-color: white;
     border-radius: 15px;
     border-style: solid;
+    justify-content: center;
 }
 
 /*styling of information of books*/
