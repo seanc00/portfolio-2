@@ -240,7 +240,8 @@ a:any-link, .logo {
 /*styling of quantity buttons*/
 .quantity {
     display: flex;
-    justify-content: space-around;
+    gap: 40px;
+    justify-content: center;
 }
 
 .itemQuantity {
