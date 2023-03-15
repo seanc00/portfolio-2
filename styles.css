@@ -136,32 +136,32 @@ a:any-link, .logo {
     justify-content: center;
 }
 
-
 .bookShowcase > div {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
     background-color: white;
     border-radius: 15px;
     border-style: solid;
-    width: 210px;
-    height: 380px
 }
 
-/*styling of book information*/
+/*styling of information of books*/
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
 .bookTitle {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
 }
 .author {
-    margin: 0;
+    margin-top: 0;
 }
-
-
-.bookInfo {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.price {
+    font-weight: bold;
 }
 
 
