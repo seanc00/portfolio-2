@@ -49,10 +49,12 @@ when clicked*/
 }
 
 /*styling of right links and return to top button*/
-.headerRight > a:hover , .returnToTop > div > a:hover{
+.headerRight > a:hover , .returnToTop > div > a:hover
+, .whatWeOfferLink:hover{
     opacity: 0.75;
 }
-.headerRight > a:active , .returnToTop > div > a:active{
+.headerRight > a:active , .returnToTop > div > a:active
+, .whatWeOfferLink:active{
     opacity: 0.5;
 }
 
@@ -97,7 +99,7 @@ a:any-link, .logo {
 }
 
 /*styling of message and return to top button*/
-.welcomeMessage > p, .returnToTop > div > a {
+.welcomeMessage > p, .returnToTop > div > a, .whatWeOfferTitle, .whatWeOfferLink{
     font-size: 25px;
     padding: 10px;
     background-color: white;
@@ -110,8 +112,67 @@ a:any-link, .logo {
 .returnToTop {
     padding: 30px;
 }
-/*targetted directly to return to top button content
-meaning this takes priority over the previous set styling*/
-.returnToTop > div > a {
+/*targetted directly to content meaning this takes
+ priority over the previous set styling*/
+.returnToTop > div > a,{
     font-size: 16px;
+}
+
+
+
+/*styling for the books we offer content*/
+.whatWeOffer, .whatWeOffer > div{
+    padding: 20px;
+}
+
+.bookShowcase {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.whatWeOffer > div > a {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bookShowcase > div {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border-style: solid;
+    width: 210px;
+    height: 380px
+}
+
+/*styling of book information*/
+.bookTitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.author {
+    margin: 0;
+}
+
+
+.bookInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+/*styling of book images*/
+#bookImage {
+    width: 200px;
+    height: 250px;
+}
+
+/*styling of title and link*/
+.whatWeOfferTitle, .whatWeOfferLink {
+    font-size: 30px;
+    color: black;
 }
