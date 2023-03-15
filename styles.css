@@ -114,7 +114,7 @@ a:any-link, .logo {
 }
 /*targetted directly to content meaning this takes
  priority over the previous set styling*/
-.returnToTop > div > a,{
+.returnToTop > div > a{
     font-size: 16px;
 }
 
