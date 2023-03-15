@@ -177,3 +177,20 @@ a:any-link, .logo {
     font-size: 30px;
     color: black;
 }
+
+
+/*all stlyes for shop.html*/
+.bookShopPanel {
+    display: flex;
+    gap: 10px;
+    background-color: pink;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.bookCoverInfo {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
