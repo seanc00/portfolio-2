@@ -38,15 +38,17 @@ body {
     border-style: groove;
 }
 
-/*styling of right links*/
-.headerRight > a {
+/*styling of links, removes purple 'active' style on links
+when clicked*/
+.headerRight > a , .returnToTop > div > a{
     color: black;
 }
 
-.headerRight > a:hover {
+/*styling of right links and return to top button*/
+.headerRight > a:hover , .returnToTop > div > a:hover{
     opacity: 0.75;
 }
-.headerRight > a:active {
+.headerRight > a:active , .returnToTop > div > a:active{
     opacity: 0.5;
 }
 
@@ -99,7 +101,13 @@ a:any-link, .logo {
     border-radius: 10px;
 }
 
+/*styling of return button*/
 .returnToTop {
     margin-top: 30px;
     padding: 30px;
+}
+/*targetted directly to return to top button content
+meaning this takes priority over the previous set styling*/
+.returnToTop > div > a {
+    font-size: 16px;
 }
