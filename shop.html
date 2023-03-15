@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>BIBI Books</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="myscripts.js"></script>
     </head>
     <body>
         <div class="header">
@@ -49,9 +50,9 @@
                 <div>
                   <div class="quantity">
                     <div class="left">
-                      <button name="minusButton" class="minusButton">-</button>
-                      <input name="itemQuantity" class="itemQuantity" placeholder="Quantity">
-                      <button name="plusButton" class="plusButton">+</button>
+                      <button id="minusButton" onclick="minusQuantity()" class="minusButton">-</button>
+                      <input name="itemQuantity" id="itemQuantity" class="itemQuantity" value="1">
+                      <button id="plusButton" onclick="addQuantity()" class="plusButton">+</button>
                     </div>
                     <div class="right">
                       <button name="addToBasket" class="addToBasket">Add to Basket</button>
