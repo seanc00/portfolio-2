@@ -54,7 +54,7 @@ when clicked*/
     opacity: 0.75;
 }
 .headerRight > a:active , .returnToTop > div > a:active
-, .whatWeOfferLink:active{
+, .whatWeOfferLink:active {
     opacity: 0.5;
 }
 
@@ -217,4 +217,30 @@ a:any-link, .logo {
     border-radius: 10px;
     border-color: black;
     border: solid;
+}
+
+.minusButton, .plusButton, .addToBasket, .itemQuantity {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid;
+}
+
+.minusButton:hover, .plusButton:hover, .addToBasket:hover {
+    background-color: pink;
+    opacity: 0.75;
+}
+.minusButton:active , .plusButton:active , .addToBasket:active {
+    background-color: pink;
+    opacity: 0.5;
+}
+
+.quantity {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemQuantity {
+    width: 50px;
+    text-align: center;
 }
