@@ -194,3 +194,27 @@ a:any-link, .logo {
     align-items: center;
     justify-content: center;
 }
+
+.bookShopPanel > div {
+    background-color: white;
+    padding: 20px;
+    border-color: black;
+    border: solid;
+    border-radius: 10px;
+}
+
+.bookCoverLeft > .bookTitle {
+    font-size: 40px;
+    margin: 0;
+}
+.author > p, .bookTitle > p {
+    margin: 0;
+}
+.bookPrice > p {
+    font-size: 30px;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    border: solid;
+}
