@@ -10,11 +10,11 @@
     </head>
     <body>
       <div class="header">
-            <a href="index.html" class="logo"><span class="leftName">BIBI</span> <span class="rightName">Books</span></a>
+            <a href="index.php" class="logo"><span class="leftName">BIBI</span> <span class="rightName">Books</span></a>
             <div class="headerRight">
-              <a href="index.html">Home</a>
-              <a href="shop.html">Shop</a>
-              <a href="basket.html">Basket</a>
+              <a href="index.php">Home</a>
+              <a href="shop.php">Shop</a>
+              <a href="basket.php">Basket</a>
             </div>
         </div>
 
@@ -67,7 +67,7 @@
               </div>
               
             </div>
-            <div><a href="shop.html" class="whatWeOfferLink">Click here to see more!</a></div>
+            <div><a href="shop.php" class="whatWeOfferLink">Click here to see more!</a></div>
           </div>
         </div>
 
